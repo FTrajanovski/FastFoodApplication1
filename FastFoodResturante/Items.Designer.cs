@@ -29,46 +29,46 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.txt_sallad = new System.Windows.Forms.TextBox();
+            this.txt_pizza = new System.Windows.Forms.TextBox();
+            this.txt_hotdog = new System.Windows.Forms.TextBox();
+            this.txt_sandwich = new System.Windows.Forms.TextBox();
             this.chk_sandwich = new System.Windows.Forms.CheckBox();
             this.chk_sallad = new System.Windows.Forms.CheckBox();
             this.chk_pizza = new System.Windows.Forms.CheckBox();
             this.chk_hotdog = new System.Windows.Forms.CheckBox();
             this.chk_burger = new System.Windows.Forms.CheckBox();
+            this.txt_burger = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.txt_hotchoclate = new System.Windows.Forms.TextBox();
+            this.txt_coffe = new System.Windows.Forms.TextBox();
             this.chk_cola = new System.Windows.Forms.CheckBox();
             this.chk_sprite = new System.Windows.Forms.CheckBox();
             this.chk_fanta = new System.Windows.Forms.CheckBox();
+            this.txt_sprite = new System.Windows.Forms.TextBox();
             this.chk_hotchoclate = new System.Windows.Forms.CheckBox();
+            this.txt_cola = new System.Windows.Forms.TextBox();
             this.chk_coffe = new System.Windows.Forms.CheckBox();
+            this.txt_fanta = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txt_number = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txt_name = new System.Windows.Forms.TextBox();
+            this.txt_adress = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btn_total = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.lbl_totalresult = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.lbl_changeresult = new System.Windows.Forms.Label();
             this.txt_payment = new System.Windows.Forms.TextBox();
             this.cmb_payment = new System.Windows.Forms.ComboBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -76,16 +76,16 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.label10);
-            this.groupBox1.Controls.Add(this.textBox7);
-            this.groupBox1.Controls.Add(this.textBox8);
-            this.groupBox1.Controls.Add(this.textBox9);
-            this.groupBox1.Controls.Add(this.textBox12);
+            this.groupBox1.Controls.Add(this.txt_sallad);
+            this.groupBox1.Controls.Add(this.txt_pizza);
+            this.groupBox1.Controls.Add(this.txt_hotdog);
+            this.groupBox1.Controls.Add(this.txt_sandwich);
             this.groupBox1.Controls.Add(this.chk_sandwich);
             this.groupBox1.Controls.Add(this.chk_sallad);
             this.groupBox1.Controls.Add(this.chk_pizza);
             this.groupBox1.Controls.Add(this.chk_hotdog);
             this.groupBox1.Controls.Add(this.chk_burger);
-            this.groupBox1.Controls.Add(this.textBox5);
+            this.groupBox1.Controls.Add(this.txt_burger);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.groupBox1.Location = new System.Drawing.Point(12, 49);
             this.groupBox1.Name = "groupBox1";
@@ -93,7 +93,56 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Food";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label10.Location = new System.Drawing.Point(279, 22);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(77, 22);
+            this.label10.TabIndex = 40;
+            this.label10.Text = "Quantity";
+            // 
+            // txt_sallad
+            // 
+            this.txt_sallad.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txt_sallad.Location = new System.Drawing.Point(299, 168);
+            this.txt_sallad.Multiline = true;
+            this.txt_sallad.Name = "txt_sallad";
+            this.txt_sallad.Size = new System.Drawing.Size(22, 21);
+            this.txt_sallad.TabIndex = 32;
+            this.txt_sallad.Text = "0";
+            // 
+            // txt_pizza
+            // 
+            this.txt_pizza.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txt_pizza.Location = new System.Drawing.Point(299, 136);
+            this.txt_pizza.Multiline = true;
+            this.txt_pizza.Name = "txt_pizza";
+            this.txt_pizza.Size = new System.Drawing.Size(22, 21);
+            this.txt_pizza.TabIndex = 33;
+            this.txt_pizza.Text = "0";
+            // 
+            // txt_hotdog
+            // 
+            this.txt_hotdog.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txt_hotdog.Location = new System.Drawing.Point(299, 104);
+            this.txt_hotdog.Multiline = true;
+            this.txt_hotdog.Name = "txt_hotdog";
+            this.txt_hotdog.Size = new System.Drawing.Size(22, 21);
+            this.txt_hotdog.TabIndex = 34;
+            this.txt_hotdog.Text = "0";
+            // 
+            // txt_sandwich
+            // 
+            this.txt_sandwich.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txt_sandwich.Location = new System.Drawing.Point(299, 200);
+            this.txt_sandwich.Multiline = true;
+            this.txt_sandwich.Name = "txt_sandwich";
+            this.txt_sandwich.Size = new System.Drawing.Size(22, 21);
+            this.txt_sandwich.TabIndex = 37;
+            this.txt_sandwich.Text = "0";
             // 
             // chk_sandwich
             // 
@@ -105,6 +154,7 @@
             this.chk_sandwich.TabIndex = 6;
             this.chk_sandwich.Text = "Sandwich";
             this.chk_sandwich.UseVisualStyleBackColor = true;
+            this.chk_sandwich.CheckedChanged += new System.EventHandler(this.chk_sandwich_CheckedChanged);
             // 
             // chk_sallad
             // 
@@ -116,6 +166,7 @@
             this.chk_sallad.TabIndex = 5;
             this.chk_sallad.Text = "Sallad";
             this.chk_sallad.UseVisualStyleBackColor = true;
+            this.chk_sallad.CheckedChanged += new System.EventHandler(this.chk_sallad_CheckedChanged);
             // 
             // chk_pizza
             // 
@@ -127,6 +178,7 @@
             this.chk_pizza.TabIndex = 4;
             this.chk_pizza.Text = "Pizza";
             this.chk_pizza.UseVisualStyleBackColor = true;
+            this.chk_pizza.CheckedChanged += new System.EventHandler(this.chk_pizza_CheckedChanged);
             // 
             // chk_hotdog
             // 
@@ -138,6 +190,7 @@
             this.chk_hotdog.TabIndex = 3;
             this.chk_hotdog.Text = "HotDog";
             this.chk_hotdog.UseVisualStyleBackColor = true;
+            this.chk_hotdog.CheckedChanged += new System.EventHandler(this.chk_hotdog_CheckedChanged);
             // 
             // chk_burger
             // 
@@ -149,20 +202,31 @@
             this.chk_burger.TabIndex = 2;
             this.chk_burger.Text = "Burger";
             this.chk_burger.UseVisualStyleBackColor = true;
+            this.chk_burger.CheckedChanged += new System.EventHandler(this.chk_burger_CheckedChanged);
+            // 
+            // txt_burger
+            // 
+            this.txt_burger.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txt_burger.Location = new System.Drawing.Point(299, 72);
+            this.txt_burger.Multiline = true;
+            this.txt_burger.Name = "txt_burger";
+            this.txt_burger.Size = new System.Drawing.Size(22, 21);
+            this.txt_burger.TabIndex = 30;
+            this.txt_burger.Text = "0";
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.label9);
-            this.groupBox2.Controls.Add(this.textBox14);
-            this.groupBox2.Controls.Add(this.textBox13);
+            this.groupBox2.Controls.Add(this.txt_hotchoclate);
+            this.groupBox2.Controls.Add(this.txt_coffe);
             this.groupBox2.Controls.Add(this.chk_cola);
             this.groupBox2.Controls.Add(this.chk_sprite);
             this.groupBox2.Controls.Add(this.chk_fanta);
-            this.groupBox2.Controls.Add(this.textBox10);
+            this.groupBox2.Controls.Add(this.txt_sprite);
             this.groupBox2.Controls.Add(this.chk_hotchoclate);
-            this.groupBox2.Controls.Add(this.textBox11);
+            this.groupBox2.Controls.Add(this.txt_cola);
             this.groupBox2.Controls.Add(this.chk_coffe);
-            this.groupBox2.Controls.Add(this.textBox6);
+            this.groupBox2.Controls.Add(this.txt_fanta);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.groupBox2.Location = new System.Drawing.Point(392, 49);
             this.groupBox2.Name = "groupBox2";
@@ -170,6 +234,36 @@
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Drinks";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label9.Location = new System.Drawing.Point(231, 22);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(77, 22);
+            this.label9.TabIndex = 39;
+            this.label9.Text = "Quantity";
+            // 
+            // txt_hotchoclate
+            // 
+            this.txt_hotchoclate.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txt_hotchoclate.Location = new System.Drawing.Point(263, 168);
+            this.txt_hotchoclate.Multiline = true;
+            this.txt_hotchoclate.Name = "txt_hotchoclate";
+            this.txt_hotchoclate.Size = new System.Drawing.Size(22, 21);
+            this.txt_hotchoclate.TabIndex = 38;
+            this.txt_hotchoclate.Text = "0";
+            // 
+            // txt_coffe
+            // 
+            this.txt_coffe.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txt_coffe.Location = new System.Drawing.Point(263, 200);
+            this.txt_coffe.Multiline = true;
+            this.txt_coffe.Name = "txt_coffe";
+            this.txt_coffe.Size = new System.Drawing.Size(22, 21);
+            this.txt_coffe.TabIndex = 37;
+            this.txt_coffe.Text = "0";
             // 
             // chk_cola
             // 
@@ -181,6 +275,7 @@
             this.chk_cola.TabIndex = 7;
             this.chk_cola.Text = "Cola";
             this.chk_cola.UseVisualStyleBackColor = true;
+            this.chk_cola.CheckedChanged += new System.EventHandler(this.chk_cola_CheckedChanged);
             // 
             // chk_sprite
             // 
@@ -192,6 +287,7 @@
             this.chk_sprite.TabIndex = 8;
             this.chk_sprite.Text = "Sprite";
             this.chk_sprite.UseVisualStyleBackColor = true;
+            this.chk_sprite.CheckedChanged += new System.EventHandler(this.chk_sprite_CheckedChanged);
             // 
             // chk_fanta
             // 
@@ -205,6 +301,16 @@
             this.chk_fanta.UseVisualStyleBackColor = true;
             this.chk_fanta.CheckedChanged += new System.EventHandler(this.checkBox8_CheckedChanged);
             // 
+            // txt_sprite
+            // 
+            this.txt_sprite.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txt_sprite.Location = new System.Drawing.Point(263, 104);
+            this.txt_sprite.Multiline = true;
+            this.txt_sprite.Name = "txt_sprite";
+            this.txt_sprite.Size = new System.Drawing.Size(22, 21);
+            this.txt_sprite.TabIndex = 35;
+            this.txt_sprite.Text = "0";
+            // 
             // chk_hotchoclate
             // 
             this.chk_hotchoclate.AutoSize = true;
@@ -215,6 +321,17 @@
             this.chk_hotchoclate.TabIndex = 10;
             this.chk_hotchoclate.Text = "Hot Choclate";
             this.chk_hotchoclate.UseVisualStyleBackColor = true;
+            this.chk_hotchoclate.CheckedChanged += new System.EventHandler(this.chk_hotchoclate_CheckedChanged);
+            // 
+            // txt_cola
+            // 
+            this.txt_cola.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txt_cola.Location = new System.Drawing.Point(263, 67);
+            this.txt_cola.Multiline = true;
+            this.txt_cola.Name = "txt_cola";
+            this.txt_cola.Size = new System.Drawing.Size(22, 21);
+            this.txt_cola.TabIndex = 36;
+            this.txt_cola.Text = "0";
             // 
             // chk_coffe
             // 
@@ -226,6 +343,17 @@
             this.chk_coffe.TabIndex = 11;
             this.chk_coffe.Text = "Coffe";
             this.chk_coffe.UseVisualStyleBackColor = true;
+            this.chk_coffe.CheckedChanged += new System.EventHandler(this.chk_coffe_CheckedChanged);
+            // 
+            // txt_fanta
+            // 
+            this.txt_fanta.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txt_fanta.Location = new System.Drawing.Point(263, 136);
+            this.txt_fanta.Multiline = true;
+            this.txt_fanta.Name = "txt_fanta";
+            this.txt_fanta.Size = new System.Drawing.Size(22, 21);
+            this.txt_fanta.TabIndex = 31;
+            this.txt_fanta.Text = "0";
             // 
             // button1
             // 
@@ -235,6 +363,7 @@
             this.button1.TabIndex = 12;
             this.button1.Text = "Ok";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -245,12 +374,12 @@
             this.label1.TabIndex = 13;
             this.label1.Text = "Name:";
             // 
-            // textBox1
+            // txt_number
             // 
-            this.textBox1.Location = new System.Drawing.Point(236, 455);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(150, 31);
-            this.textBox1.TabIndex = 12;
+            this.txt_number.Location = new System.Drawing.Point(236, 455);
+            this.txt_number.Name = "txt_number";
+            this.txt_number.Size = new System.Drawing.Size(150, 31);
+            this.txt_number.TabIndex = 12;
             // 
             // label2
             // 
@@ -270,19 +399,20 @@
             this.label3.TabIndex = 15;
             this.label3.Text = "Contact Number:";
             // 
-            // textBox2
+            // txt_name
             // 
-            this.textBox2.Location = new System.Drawing.Point(236, 370);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(150, 31);
-            this.textBox2.TabIndex = 16;
+            this.txt_name.Location = new System.Drawing.Point(236, 370);
+            this.txt_name.Name = "txt_name";
+            this.txt_name.Size = new System.Drawing.Size(150, 31);
+            this.txt_name.TabIndex = 16;
+            this.txt_name.TextChanged += new System.EventHandler(this.txt_name_TextChanged);
             // 
-            // textBox3
+            // txt_adress
             // 
-            this.textBox3.Location = new System.Drawing.Point(236, 413);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(150, 31);
-            this.textBox3.TabIndex = 17;
+            this.txt_adress.Location = new System.Drawing.Point(236, 413);
+            this.txt_adress.Name = "txt_adress";
+            this.txt_adress.Size = new System.Drawing.Size(150, 31);
+            this.txt_adress.TabIndex = 17;
             // 
             // button2
             // 
@@ -294,23 +424,25 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // btn_total
             // 
-            this.button3.Location = new System.Drawing.Point(404, 565);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(112, 34);
-            this.button3.TabIndex = 19;
-            this.button3.Text = "Total";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btn_total.Location = new System.Drawing.Point(613, 565);
+            this.btn_total.Name = "btn_total";
+            this.btn_total.Size = new System.Drawing.Size(112, 34);
+            this.btn_total.TabIndex = 19;
+            this.btn_total.Text = "Total";
+            this.btn_total.UseVisualStyleBackColor = true;
+            this.btn_total.Click += new System.EventHandler(this.btn_total_Click);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(555, 565);
+            this.button4.Location = new System.Drawing.Point(427, 565);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(112, 34);
             this.button4.TabIndex = 20;
             this.button4.Text = "Reset";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // label4
             // 
@@ -321,14 +453,14 @@
             this.label4.TabIndex = 22;
             this.label4.Text = "Payment Method";
             // 
-            // label5
+            // lbl_totalresult
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(580, 443);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(97, 25);
-            this.label5.TabIndex = 23;
-            this.label5.Text = "Total result";
+            this.lbl_totalresult.AutoSize = true;
+            this.lbl_totalresult.Location = new System.Drawing.Point(580, 443);
+            this.lbl_totalresult.Name = "lbl_totalresult";
+            this.lbl_totalresult.Size = new System.Drawing.Size(97, 25);
+            this.lbl_totalresult.TabIndex = 23;
+            this.lbl_totalresult.Text = "Total result";
             // 
             // label6
             // 
@@ -348,14 +480,14 @@
             this.label7.TabIndex = 25;
             this.label7.Text = "Change:";
             // 
-            // label8
+            // lbl_changeresult
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(580, 493);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(120, 25);
-            this.label8.TabIndex = 26;
-            this.label8.Text = "Change result";
+            this.lbl_changeresult.AutoSize = true;
+            this.lbl_changeresult.Location = new System.Drawing.Point(580, 493);
+            this.lbl_changeresult.Name = "lbl_changeresult";
+            this.lbl_changeresult.Size = new System.Drawing.Size(120, 25);
+            this.lbl_changeresult.TabIndex = 26;
+            this.lbl_changeresult.Text = "Change result";
             // 
             // txt_payment
             // 
@@ -371,107 +503,7 @@
             this.cmb_payment.Name = "cmb_payment";
             this.cmb_payment.Size = new System.Drawing.Size(161, 33);
             this.cmb_payment.TabIndex = 28;
-            this.cmb_payment.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(299, 72);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(22, 21);
-            this.textBox5.TabIndex = 30;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(263, 136);
-            this.textBox6.Multiline = true;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(22, 21);
-            this.textBox6.TabIndex = 31;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(299, 168);
-            this.textBox7.Multiline = true;
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(22, 21);
-            this.textBox7.TabIndex = 32;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(299, 136);
-            this.textBox8.Multiline = true;
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(22, 21);
-            this.textBox8.TabIndex = 33;
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(299, 104);
-            this.textBox9.Multiline = true;
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(22, 21);
-            this.textBox9.TabIndex = 34;
-            // 
-            // textBox10
-            // 
-            this.textBox10.Location = new System.Drawing.Point(263, 104);
-            this.textBox10.Multiline = true;
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(22, 21);
-            this.textBox10.TabIndex = 35;
-            // 
-            // textBox11
-            // 
-            this.textBox11.Location = new System.Drawing.Point(263, 67);
-            this.textBox11.Multiline = true;
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(22, 21);
-            this.textBox11.TabIndex = 36;
-            // 
-            // textBox12
-            // 
-            this.textBox12.Location = new System.Drawing.Point(299, 200);
-            this.textBox12.Multiline = true;
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(22, 21);
-            this.textBox12.TabIndex = 37;
-            // 
-            // textBox13
-            // 
-            this.textBox13.Location = new System.Drawing.Point(263, 200);
-            this.textBox13.Multiline = true;
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(22, 21);
-            this.textBox13.TabIndex = 37;
-            // 
-            // textBox14
-            // 
-            this.textBox14.Location = new System.Drawing.Point(263, 168);
-            this.textBox14.Multiline = true;
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(22, 21);
-            this.textBox14.TabIndex = 38;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label9.Location = new System.Drawing.Point(231, 22);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(77, 22);
-            this.label9.TabIndex = 39;
-            this.label9.Text = "Quantity";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label10.Location = new System.Drawing.Point(279, 22);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(77, 22);
-            this.label10.TabIndex = 40;
-            this.label10.Text = "Quantity";
+            this.cmb_payment.SelectedIndexChanged += new System.EventHandler(this.cmb_payment_SelectedIndexChanged);
             // 
             // frm_item
             // 
@@ -481,19 +513,19 @@
             this.ClientSize = new System.Drawing.Size(800, 631);
             this.Controls.Add(this.cmb_payment);
             this.Controls.Add(this.txt_payment);
-            this.Controls.Add(this.label8);
+            this.Controls.Add(this.lbl_changeresult);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this.lbl_totalresult);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btn_total);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txt_adress);
+            this.Controls.Add(this.txt_name);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txt_number);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox2);
@@ -526,32 +558,32 @@
         private CheckBox chk_coffe;
         private Button button1;
         private Label label1;
-        private TextBox textBox1;
+        private TextBox txt_number;
         private Label label2;
         private Label label3;
-        private TextBox textBox2;
-        private TextBox textBox3;
+        private TextBox txt_name;
+        private TextBox txt_adress;
         private Button button2;
-        private Button button3;
+        private Button btn_total;
         private Button button4;
         private Label label4;
-        private Label label5;
+        private Label lbl_totalresult;
         private Label label6;
         private Label label7;
-        private Label label8;
+        private Label lbl_changeresult;
         private TextBox txt_payment;
         private ComboBox cmb_payment;
         private Label label10;
-        private TextBox textBox7;
-        private TextBox textBox8;
-        private TextBox textBox9;
-        private TextBox textBox12;
-        private TextBox textBox5;
+        private TextBox txt_sallad;
+        private TextBox txt_pizza;
+        private TextBox txt_hotdog;
+        private TextBox txt_sandwich;
+        private TextBox txt_burger;
         private Label label9;
-        private TextBox textBox14;
-        private TextBox textBox13;
-        private TextBox textBox10;
-        private TextBox textBox11;
-        private TextBox textBox6;
+        private TextBox txt_hotchoclate;
+        private TextBox txt_coffe;
+        private TextBox txt_sprite;
+        private TextBox txt_cola;
+        private TextBox txt_fanta;
     }
 }

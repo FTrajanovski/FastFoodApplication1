@@ -1,3 +1,5 @@
+using System.Windows.Forms;
+
 namespace FastFoodResturante
 {
     internal static class Program
@@ -17,3 +19,18 @@ namespace FastFoodResturante
        
     }
 }
+
+//private void EnableTextBoxes()
+//{
+   // Action<Control.ControlCollection> func = null;
+
+  //  func = (controls) =>
+    //{
+      //  foreach (Control control in controls)
+        //    if (control is TextBox)
+          //      (control as TextBox).Enabled = false;
+            //else
+              //  func(control.Controls);
+    //};
+   // func(Controls);
+//}
