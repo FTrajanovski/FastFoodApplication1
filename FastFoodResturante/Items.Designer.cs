@@ -380,6 +380,7 @@
             this.txt_number.Name = "txt_number";
             this.txt_number.Size = new System.Drawing.Size(150, 31);
             this.txt_number.TabIndex = 12;
+            this.txt_number.TextChanged += new System.EventHandler(this.txt_number_TextChanged);
             // 
             // label2
             // 
@@ -413,6 +414,7 @@
             this.txt_adress.Name = "txt_adress";
             this.txt_adress.Size = new System.Drawing.Size(150, 31);
             this.txt_adress.TabIndex = 17;
+            this.txt_adress.TextChanged += new System.EventHandler(this.txt_adress_TextChanged);
             // 
             // button2
             // 

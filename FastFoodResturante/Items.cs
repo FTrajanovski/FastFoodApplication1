@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Configuration;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Security.AccessControl;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
@@ -289,6 +291,8 @@ namespace FastFoodResturante
             {
                 total = itemcost[0] + itemcost[2] + itemcost[3] + itemcost[4] + itemcost[5] + itemcost[6]
                 + itemcost[7] + itemcost[8] + itemcost[9] + itemcost[10];
+
+                lbl_totalresult.Text = Convert.ToString(total);
             }
 
 
@@ -297,21 +301,14 @@ namespace FastFoodResturante
         private void button4_Click(object sender, EventArgs e)
         {
             RestTextBox();
+            
         }
         private void RestTextBox()
         {
-            Action<Control.ControlCollection> func = null;
-
-            func = (controls) =>
-            {
-                foreach (Control control in controls)
-                    if (control is TextBox)
-                        (control as TextBox).Text = "0";
-                    else
-                        func(Controls);
-
-            };
-            func(Controls);
+            Form item = new frm_item();
+            item.Show();
+            this.Hide();
+           
         }
         private void RestCheckBox()
         {
@@ -331,13 +328,47 @@ namespace FastFoodResturante
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Thank you for choosing our restaurant" +txt_name+ "We will deliver your order at" 
-                +txt_adress+"We will contact you at"+txt_number);
+            if (txt_name.Text == "") 
+            {
+                MessageBox.Show("Please fill out the required fields!");
+            }
+            else if (txt_adress.Text == "")
+            {
+                MessageBox.Show("Please fill out the required fields!");
+
+            }
+            else if (txt_number.Text == "")
+            {
+                MessageBox.Show("Please fill out the required fields!");
+
+            }
+            else
+            {
+                MessageBox.Show("Thank you for choosing our restaurant " + txt_name.Text + ". We will deliver your order at " + txt_adress.Text + ". We will contact you at " + txt_number.Text);
+
+            }
+
+            //MessageBox.Show("Thank you for choosing our restaurant " + txt_name.Text + ". We will deliver your order at " + txt_adress.Text + ". We will contact you at " + txt_number.Text);
         }
+
+        
+        
+
+      
 
         private void txt_name_TextChanged(object sender, EventArgs e)
         {
+           
+        }
 
+        private void txt_adress_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void txt_number_TextChanged(object sender, EventArgs e)
+        {
+          
         }
     }
 }
