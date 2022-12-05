@@ -379,7 +379,7 @@
             this.txt_number.Location = new System.Drawing.Point(236, 455);
             this.txt_number.Name = "txt_number";
             this.txt_number.Size = new System.Drawing.Size(150, 31);
-            this.txt_number.TabIndex = 12;
+            this.txt_number.TabIndex = 18;
             this.txt_number.TextChanged += new System.EventHandler(this.txt_number_TextChanged);
             // 
             // label2
@@ -496,7 +496,7 @@
             this.txt_payment.Location = new System.Drawing.Point(592, 407);
             this.txt_payment.Name = "txt_payment";
             this.txt_payment.Size = new System.Drawing.Size(161, 31);
-            this.txt_payment.TabIndex = 27;
+            this.txt_payment.TabIndex = 15;
             // 
             // cmb_payment
             // 
@@ -504,7 +504,7 @@
             this.cmb_payment.Location = new System.Drawing.Point(592, 362);
             this.cmb_payment.Name = "cmb_payment";
             this.cmb_payment.Size = new System.Drawing.Size(161, 33);
-            this.cmb_payment.TabIndex = 28;
+            this.cmb_payment.TabIndex = 14;
             this.cmb_payment.SelectedIndexChanged += new System.EventHandler(this.cmb_payment_SelectedIndexChanged);
             // 
             // frm_item

@@ -66,7 +66,6 @@ namespace FastFoodResturante
 
         private void frm_item_Load(object sender, EventArgs e)
         {
-            cmb_payment.Items.Add(" ");
             cmb_payment.Items.Add("Cash");
             cmb_payment.Items.Add("Cash on delivery");
 
@@ -265,14 +264,14 @@ namespace FastFoodResturante
             double[] itemcost = new double[100];
             itemcost[0] = Convert.ToDouble(txt_burger.Text) * price_burger;
             itemcost[2] = Convert.ToDouble(txt_hotdog.Text) * price_hotdog;
-            itemcost[3] = Convert.ToDouble(txt_pizza.Text) * price_burger;
-            itemcost[4] = Convert.ToDouble(txt_sallad.Text) * price_burger;
-            itemcost[5] = Convert.ToDouble(txt_sandwich.Text) * price_burger;
-            itemcost[6] = Convert.ToDouble(txt_cola.Text) * price_burger;
-            itemcost[7] = Convert.ToDouble(txt_sprite.Text) * price_burger;
-            itemcost[8] = Convert.ToDouble(txt_fanta.Text) * price_burger;
-            itemcost[9] = Convert.ToDouble(txt_hotchoclate.Text) * price_burger;
-            itemcost[10] = Convert.ToDouble(txt_coffe.Text) * price_burger;
+            itemcost[3] = Convert.ToDouble(txt_pizza.Text) * price_pizza;
+            itemcost[4] = Convert.ToDouble(txt_sallad.Text) * price_sallad;
+            itemcost[5] = Convert.ToDouble(txt_sandwich.Text) * price_sandwich;
+            itemcost[6] = Convert.ToDouble(txt_cola.Text) * price_cola;
+            itemcost[7] = Convert.ToDouble(txt_sprite.Text) * price_sprite;
+            itemcost[8] = Convert.ToDouble(txt_fanta.Text) * price_fanta;
+            itemcost[9] = Convert.ToDouble(txt_hotchoclate.Text) * price_hotchoclate;
+            itemcost[10] = Convert.ToDouble(txt_coffe.Text) * price_coffe;
 
             double total, payment, cost;
             if (cmb_payment.Text == "Cash")
