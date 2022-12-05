@@ -69,16 +69,31 @@
             this.lbl_changeresult = new System.Windows.Forms.Label();
             this.txt_payment = new System.Windows.Forms.TextBox();
             this.cmb_payment = new System.Windows.Forms.ComboBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.label18);
             this.groupBox1.Controls.Add(this.label10);
+            this.groupBox1.Controls.Add(this.label17);
             this.groupBox1.Controls.Add(this.txt_sallad);
+            this.groupBox1.Controls.Add(this.label16);
             this.groupBox1.Controls.Add(this.txt_pizza);
+            this.groupBox1.Controls.Add(this.label15);
             this.groupBox1.Controls.Add(this.txt_hotdog);
+            this.groupBox1.Controls.Add(this.label14);
             this.groupBox1.Controls.Add(this.txt_sandwich);
             this.groupBox1.Controls.Add(this.chk_sandwich);
             this.groupBox1.Controls.Add(this.chk_sallad);
@@ -226,7 +241,12 @@
             this.groupBox2.Controls.Add(this.chk_hotchoclate);
             this.groupBox2.Controls.Add(this.txt_cola);
             this.groupBox2.Controls.Add(this.chk_coffe);
+            this.groupBox2.Controls.Add(this.label13);
+            this.groupBox2.Controls.Add(this.label12);
+            this.groupBox2.Controls.Add(this.label8);
+            this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.txt_fanta);
+            this.groupBox2.Controls.Add(this.label11);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.groupBox2.Location = new System.Drawing.Point(392, 49);
             this.groupBox2.Name = "groupBox2";
@@ -269,7 +289,7 @@
             // 
             this.chk_cola.AutoSize = true;
             this.chk_cola.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.chk_cola.Location = new System.Drawing.Point(64, 67);
+            this.chk_cola.Location = new System.Drawing.Point(64, 72);
             this.chk_cola.Name = "chk_cola";
             this.chk_cola.Size = new System.Drawing.Size(73, 26);
             this.chk_cola.TabIndex = 7;
@@ -326,7 +346,7 @@
             // txt_cola
             // 
             this.txt_cola.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txt_cola.Location = new System.Drawing.Point(263, 67);
+            this.txt_cola.Location = new System.Drawing.Point(263, 72);
             this.txt_cola.Multiline = true;
             this.txt_cola.Name = "txt_cola";
             this.txt_cola.Size = new System.Drawing.Size(22, 21);
@@ -463,6 +483,7 @@
             this.lbl_totalresult.Size = new System.Drawing.Size(97, 25);
             this.lbl_totalresult.TabIndex = 23;
             this.lbl_totalresult.Text = "Total result";
+            this.lbl_totalresult.Click += new System.EventHandler(this.lbl_totalresult_Click);
             // 
             // label6
             // 
@@ -506,6 +527,106 @@
             this.cmb_payment.Size = new System.Drawing.Size(161, 33);
             this.cmb_payment.TabIndex = 14;
             this.cmb_payment.SelectedIndexChanged += new System.EventHandler(this.cmb_payment_SelectedIndexChanged);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label5.Location = new System.Drawing.Point(291, 203);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(36, 20);
+            this.label5.TabIndex = 27;
+            this.label5.Text = "30:-";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label8.Location = new System.Drawing.Point(291, 171);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(36, 20);
+            this.label8.TabIndex = 28;
+            this.label8.Text = "30:-";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label11.Location = new System.Drawing.Point(291, 107);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(36, 20);
+            this.label11.TabIndex = 29;
+            this.label11.Text = "15:-";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label12.Location = new System.Drawing.Point(291, 137);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(36, 20);
+            this.label12.TabIndex = 30;
+            this.label12.Text = "15:-";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label13.Location = new System.Drawing.Point(291, 75);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(36, 20);
+            this.label13.TabIndex = 31;
+            this.label13.Text = "15:-";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label14.Location = new System.Drawing.Point(327, 201);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(36, 20);
+            this.label14.TabIndex = 32;
+            this.label14.Text = "50:-";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label15.Location = new System.Drawing.Point(327, 169);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(36, 20);
+            this.label15.TabIndex = 33;
+            this.label15.Text = "75:-";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label16.Location = new System.Drawing.Point(327, 139);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(36, 20);
+            this.label16.TabIndex = 34;
+            this.label16.Text = "90:-";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label17.Location = new System.Drawing.Point(327, 75);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(36, 20);
+            this.label17.TabIndex = 35;
+            this.label17.Text = "80:-";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label18.Location = new System.Drawing.Point(327, 107);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(36, 20);
+            this.label18.TabIndex = 36;
+            this.label18.Text = "60:-";
             // 
             // frm_item
             // 
@@ -587,5 +708,15 @@
         private TextBox txt_sprite;
         private TextBox txt_cola;
         private TextBox txt_fanta;
+        private Label label18;
+        private Label label17;
+        private Label label16;
+        private Label label15;
+        private Label label14;
+        private Label label13;
+        private Label label12;
+        private Label label8;
+        private Label label5;
+        private Label label11;
     }
 }

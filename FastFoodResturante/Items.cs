@@ -369,5 +369,10 @@ namespace FastFoodResturante
         {
           
         }
+
+        private void lbl_totalresult_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
