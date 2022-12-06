@@ -342,7 +342,15 @@ namespace FastFoodResturante
                 MessageBox.Show("Please fill out the required fields!");
 
             }
-        
+            else if (cmb_payment.Text == "")
+            {
+                MessageBox.Show("Please fill out the required fields!");
+            }
+            else if (txt_payment.Text == "")
+            {
+                MessageBox.Show("Please insert money.");
+            }
+
             else
             {
                 MessageBox.Show("Thank you for choosing our restaurant, " + txt_name.Text + ". We will deliver your order at " + txt_adress.Text + ". We will contact you at " + txt_number.Text);
@@ -380,6 +388,11 @@ namespace FastFoodResturante
         private void groupBox1_Enter(object sender, EventArgs e)
         {
 
+        }
+
+        private void txt_payment_TextChanged(object sender, EventArgs e)
+        {
+        
         }
     }
 }

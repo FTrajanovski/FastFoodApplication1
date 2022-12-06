@@ -619,6 +619,7 @@
             this.txt_payment.Name = "txt_payment";
             this.txt_payment.Size = new System.Drawing.Size(161, 31);
             this.txt_payment.TabIndex = 15;
+            this.txt_payment.TextChanged += new System.EventHandler(this.txt_payment_TextChanged);
             // 
             // cmb_payment
             // 
