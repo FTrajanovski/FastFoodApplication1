@@ -279,6 +279,7 @@
             this.txt_burger.Size = new System.Drawing.Size(22, 21);
             this.txt_burger.TabIndex = 30;
             this.txt_burger.Text = "0";
+            this.txt_burger.TextChanged += new System.EventHandler(this.txt_burger_TextChanged);
             // 
             // groupBox2
             // 
@@ -594,6 +595,7 @@
             this.label6.Size = new System.Drawing.Size(53, 25);
             this.label6.TabIndex = 24;
             this.label6.Text = "Total:";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label7
             // 

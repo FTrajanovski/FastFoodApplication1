@@ -42,7 +42,7 @@ namespace FastFoodResturante
                 if (chk_fanta.Checked == true)
                 {
                     txt_fanta.Enabled = true;
-                    txt_fanta.Text = "";
+                    txt_fanta.Text = "0";
                     txt_fanta.Focus();
                 }
                 else
@@ -79,10 +79,11 @@ namespace FastFoodResturante
 
         private void chk_burger_CheckedChanged(object sender, EventArgs e)
         {
+            
             if (chk_burger.Checked == true)
             {
                 txt_burger.Enabled = true;
-                txt_burger.Text = "";
+                txt_burger.Text = "0";
                 txt_burger.Focus();
             }
             else
@@ -100,7 +101,7 @@ namespace FastFoodResturante
                 if (chk_hotdog.Checked == true)
                 {
                     txt_hotdog.Enabled = true;
-                    txt_hotdog.Text = "";
+                    txt_hotdog.Text = "0";
                     txt_hotdog.Focus();
                 }
                 else
@@ -117,7 +118,7 @@ namespace FastFoodResturante
                 if (chk_pizza.Checked == true)
                 {
                     txt_pizza.Enabled = true;
-                    txt_pizza.Text = "";
+                    txt_pizza.Text = "0";
                     txt_pizza.Focus();
                 }
                 else
@@ -134,7 +135,7 @@ namespace FastFoodResturante
                 if (chk_sallad.Checked == true)
                 {
                     txt_sallad.Enabled = true;
-                    txt_sallad.Text = "";
+                    txt_sallad.Text = "0";
                     txt_sallad.Focus();
                 }
                 else
@@ -151,7 +152,7 @@ namespace FastFoodResturante
                 if (chk_sandwich.Checked == true)
                 {
                     txt_sandwich.Enabled = true;
-                    txt_sandwich.Text = "";
+                    txt_sandwich.Text = "0";
                     txt_sandwich.Focus();
                 }
                 else
@@ -168,7 +169,7 @@ namespace FastFoodResturante
                 if (chk_cola.Checked == true)
                 {
                     txt_cola.Enabled = true;
-                    txt_cola.Text = "";
+                    txt_cola.Text = "0";
                     txt_cola.Focus();
                 }
                 else
@@ -185,7 +186,7 @@ namespace FastFoodResturante
                 if (chk_sprite.Checked == true)
                 {
                     txt_sprite.Enabled = true;
-                    txt_sprite.Text = "";
+                    txt_sprite.Text = "0";
                     txt_sprite.Focus();
                 }
                 else
@@ -202,7 +203,7 @@ namespace FastFoodResturante
                 if (chk_hotchoclate.Checked == true)
                 {
                     txt_hotchoclate.Enabled = true;
-                    txt_hotchoclate.Text = "";
+                    txt_hotchoclate.Text = "0";
                     txt_hotchoclate.Focus();
                 }
                 else
@@ -219,7 +220,7 @@ namespace FastFoodResturante
                 if (chk_coffe.Checked == true)
                 {
                     txt_coffe.Enabled = true;
-                    txt_coffe.Text = "";
+                    txt_coffe.Text = "0";
                     txt_coffe.Focus();
                 }
                 else
@@ -277,6 +278,7 @@ namespace FastFoodResturante
             double total, payment, cost;
             if (cmb_payment.Text == "Cash")
             {
+                
                 total = itemcost[0] + itemcost[2] + itemcost[3] + itemcost[4] + itemcost[5] + itemcost[6]
                     + itemcost[7] + itemcost[8] + itemcost[9] + itemcost[10];
                 
@@ -350,7 +352,62 @@ namespace FastFoodResturante
             {
                 MessageBox.Show("Please insert money.");
             }
+       
+            else if (txt_burger.Text == "0" && chk_burger.Checked == true)
+                {
+                MessageBox.Show("Enter Quantity.");
+                   
+                }
+            else if (txt_hotdog.Text == "0" && chk_hotdog.Checked == true)
+            {
+                MessageBox.Show("Enter Quantity.");
 
+            }
+            else if (txt_pizza.Text == "0" && chk_pizza.Checked == true)
+            {
+                MessageBox.Show("Enter Quantity.");
+
+            }
+            else if (txt_sallad.Text == "0" && chk_sallad.Checked == true)
+            {
+                MessageBox.Show("Enter Quantity.");
+
+            }
+            else if (txt_sandwich.Text == "0" && chk_sandwich.Checked == true)
+            {
+                MessageBox.Show("Enter Quantity.");
+
+            }
+            else if (txt_cola.Text == "0" && chk_cola.Checked == true)
+            {
+                MessageBox.Show("Enter Quantity.");
+
+            }
+            else if (txt_sprite.Text == "0" && chk_sprite.Checked == true)
+            {
+                MessageBox.Show("Enter Quantity.");
+
+            }
+            else if (txt_fanta.Text == "0" && chk_fanta.Checked == true)
+            {
+                MessageBox.Show("Enter Quantity.");
+
+            }
+            else if (txt_hotchoclate.Text == "0" && chk_hotchoclate.Checked == true)
+            {
+                MessageBox.Show("Enter Quantity.");
+
+            }
+            else if (txt_coffe.Text == "0" && chk_coffe.Checked == true)
+            {
+                MessageBox.Show("Enter Quantity.");
+
+            }
+            else if (lbl_totalresult.Text == "Total result" || lbl_totalresult.Text == "0")
+            {
+                MessageBox.Show("Choose a product!");
+
+            }
             else
             {
                 MessageBox.Show("Thank you for choosing our restaurant, " + txt_name.Text + ". We will deliver your order at " + txt_adress.Text + ". We will contact you at " + txt_number.Text);
@@ -382,7 +439,7 @@ namespace FastFoodResturante
 
         private void lbl_totalresult_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
@@ -393,6 +450,19 @@ namespace FastFoodResturante
         private void txt_payment_TextChanged(object sender, EventArgs e)
         {
         
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_burger_TextChanged(object sender, EventArgs e)
+        {
+            
+            
+               
+            
         }
     }
 }
