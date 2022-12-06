@@ -256,6 +256,7 @@ namespace FastFoodResturante
             {
                 txt_payment.Enabled = false;
                 txt_payment.Text = "0";
+
             }
         }
 
@@ -341,9 +342,10 @@ namespace FastFoodResturante
                 MessageBox.Show("Please fill out the required fields!");
 
             }
+        
             else
             {
-                MessageBox.Show("Thank you for choosing our restaurant " + txt_name.Text + ". We will deliver your order at " + txt_adress.Text + ". We will contact you at " + txt_number.Text);
+                MessageBox.Show("Thank you for choosing our restaurant, " + txt_name.Text + ". We will deliver your order at " + txt_adress.Text + ". We will contact you at " + txt_number.Text);
 
             }
 
@@ -371,6 +373,11 @@ namespace FastFoodResturante
         }
 
         private void lbl_totalresult_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
         {
 
         }
