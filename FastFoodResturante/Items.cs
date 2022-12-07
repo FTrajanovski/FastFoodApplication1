@@ -330,6 +330,7 @@ namespace FastFoodResturante
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //Om man inte har fyllt i sitt namn.
             if (txt_name.Text == "") 
             {
                 MessageBox.Show("Please fill out the required fields!");
@@ -353,6 +354,8 @@ namespace FastFoodResturante
                 MessageBox.Show("Please insert money.");
             }
        
+            //Om inte man trycker in på en produkt, kommer det upp "enter quantity. (Burger checked måste också vara ifylld
+            //annars kommer det även upp "enter quantity" på dom produkterna som inte är valda, eftersom alla börjar på"0".
             else if (txt_burger.Text == "0" && chk_burger.Checked == true)
                 {
                 MessageBox.Show("Enter Quantity.");
@@ -403,18 +406,26 @@ namespace FastFoodResturante
                 MessageBox.Show("Enter Quantity.");
 
             }
-            else if (lbl_totalresult.Text == "Total result" || lbl_totalresult.Text == "0")
+            //Om man inte har tryckt in någon produkt alls, då kommer det upp "Choose product" För att inte ett
+            //köp ska gå igenom om användaren inte väljer någon checkbox alls.
+            else if (chk_burger.Checked == false && chk_hotdog.Checked == false && chk_pizza.Checked == false && chk_sallad.Checked == false && chk_sandwich.Checked == false && chk_cola.Checked == false && chk_sprite.Checked == false && chk_fanta.Checked == false && chk_hotchoclate.Checked == false && chk_coffe.Checked == false)
             {
-                MessageBox.Show("Choose a product!");
+                MessageBox.Show("Choose product and quantity.");
 
             }
+            //Kommer upp om man inte tryckt in någon produkt alls, eftrsom
+            //else if (lbl_totalresult.Text == "Total result" || lbl_totalresult.Text == "0")
+            //{
+            //MessageBox.Show("Choose a product!");
+
+            //}
             else
             {
                 MessageBox.Show("Thank you for choosing our restaurant, " + txt_name.Text + ". We will deliver your order at " + txt_adress.Text + ". We will contact you at " + txt_number.Text);
 
             }
 
-            //MessageBox.Show("Thank you for choosing our restaurant " + txt_name.Text + ". We will deliver your order at " + txt_adress.Text + ". We will contact you at " + txt_number.Text);
+          
         }
 
         

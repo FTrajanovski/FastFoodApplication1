@@ -147,7 +147,7 @@
             this.txt_sallad.Multiline = true;
             this.txt_sallad.Name = "txt_sallad";
             this.txt_sallad.Size = new System.Drawing.Size(22, 21);
-            this.txt_sallad.TabIndex = 32;
+            this.txt_sallad.TabIndex = 23;
             this.txt_sallad.Text = "0";
             // 
             // label16
@@ -167,7 +167,7 @@
             this.txt_pizza.Multiline = true;
             this.txt_pizza.Name = "txt_pizza";
             this.txt_pizza.Size = new System.Drawing.Size(22, 21);
-            this.txt_pizza.TabIndex = 33;
+            this.txt_pizza.TabIndex = 22;
             this.txt_pizza.Text = "0";
             // 
             // label15
@@ -187,7 +187,7 @@
             this.txt_hotdog.Multiline = true;
             this.txt_hotdog.Name = "txt_hotdog";
             this.txt_hotdog.Size = new System.Drawing.Size(22, 21);
-            this.txt_hotdog.TabIndex = 34;
+            this.txt_hotdog.TabIndex = 21;
             this.txt_hotdog.Text = "0";
             // 
             // label14
@@ -207,7 +207,7 @@
             this.txt_sandwich.Multiline = true;
             this.txt_sandwich.Name = "txt_sandwich";
             this.txt_sandwich.Size = new System.Drawing.Size(22, 21);
-            this.txt_sandwich.TabIndex = 37;
+            this.txt_sandwich.TabIndex = 24;
             this.txt_sandwich.Text = "0";
             // 
             // chk_sandwich
@@ -217,7 +217,7 @@
             this.chk_sandwich.Location = new System.Drawing.Point(50, 195);
             this.chk_sandwich.Name = "chk_sandwich";
             this.chk_sandwich.Size = new System.Drawing.Size(114, 26);
-            this.chk_sandwich.TabIndex = 6;
+            this.chk_sandwich.TabIndex = 5;
             this.chk_sandwich.Text = "Sandwich";
             this.chk_sandwich.UseVisualStyleBackColor = true;
             this.chk_sandwich.CheckedChanged += new System.EventHandler(this.chk_sandwich_CheckedChanged);
@@ -229,7 +229,7 @@
             this.chk_sallad.Location = new System.Drawing.Point(50, 163);
             this.chk_sallad.Name = "chk_sallad";
             this.chk_sallad.Size = new System.Drawing.Size(86, 26);
-            this.chk_sallad.TabIndex = 5;
+            this.chk_sallad.TabIndex = 4;
             this.chk_sallad.Text = "Sallad";
             this.chk_sallad.UseVisualStyleBackColor = true;
             this.chk_sallad.CheckedChanged += new System.EventHandler(this.chk_sallad_CheckedChanged);
@@ -241,7 +241,7 @@
             this.chk_pizza.Location = new System.Drawing.Point(50, 131);
             this.chk_pizza.Name = "chk_pizza";
             this.chk_pizza.Size = new System.Drawing.Size(78, 26);
-            this.chk_pizza.TabIndex = 4;
+            this.chk_pizza.TabIndex = 3;
             this.chk_pizza.Text = "Pizza";
             this.chk_pizza.UseVisualStyleBackColor = true;
             this.chk_pizza.CheckedChanged += new System.EventHandler(this.chk_pizza_CheckedChanged);
@@ -253,7 +253,7 @@
             this.chk_hotdog.Location = new System.Drawing.Point(50, 99);
             this.chk_hotdog.Name = "chk_hotdog";
             this.chk_hotdog.Size = new System.Drawing.Size(97, 26);
-            this.chk_hotdog.TabIndex = 3;
+            this.chk_hotdog.TabIndex = 2;
             this.chk_hotdog.Text = "HotDog";
             this.chk_hotdog.UseVisualStyleBackColor = true;
             this.chk_hotdog.CheckedChanged += new System.EventHandler(this.chk_hotdog_CheckedChanged);
@@ -265,7 +265,7 @@
             this.chk_burger.Location = new System.Drawing.Point(50, 67);
             this.chk_burger.Name = "chk_burger";
             this.chk_burger.Size = new System.Drawing.Size(90, 26);
-            this.chk_burger.TabIndex = 2;
+            this.chk_burger.TabIndex = 1;
             this.chk_burger.Text = "Burger";
             this.chk_burger.UseVisualStyleBackColor = true;
             this.chk_burger.CheckedChanged += new System.EventHandler(this.chk_burger_CheckedChanged);
@@ -277,7 +277,7 @@
             this.txt_burger.Multiline = true;
             this.txt_burger.Name = "txt_burger";
             this.txt_burger.Size = new System.Drawing.Size(22, 21);
-            this.txt_burger.TabIndex = 30;
+            this.txt_burger.TabIndex = 20;
             this.txt_burger.Text = "0";
             this.txt_burger.TextChanged += new System.EventHandler(this.txt_burger_TextChanged);
             // 
@@ -324,7 +324,7 @@
             this.txt_hotchoclate.Multiline = true;
             this.txt_hotchoclate.Name = "txt_hotchoclate";
             this.txt_hotchoclate.Size = new System.Drawing.Size(22, 21);
-            this.txt_hotchoclate.TabIndex = 38;
+            this.txt_hotchoclate.TabIndex = 28;
             this.txt_hotchoclate.Text = "0";
             // 
             // txt_coffe
@@ -334,7 +334,7 @@
             this.txt_coffe.Multiline = true;
             this.txt_coffe.Name = "txt_coffe";
             this.txt_coffe.Size = new System.Drawing.Size(22, 21);
-            this.txt_coffe.TabIndex = 37;
+            this.txt_coffe.TabIndex = 29;
             this.txt_coffe.Text = "0";
             // 
             // chk_cola
@@ -344,7 +344,7 @@
             this.chk_cola.Location = new System.Drawing.Point(64, 72);
             this.chk_cola.Name = "chk_cola";
             this.chk_cola.Size = new System.Drawing.Size(73, 26);
-            this.chk_cola.TabIndex = 7;
+            this.chk_cola.TabIndex = 6;
             this.chk_cola.Text = "Cola";
             this.chk_cola.UseVisualStyleBackColor = true;
             this.chk_cola.CheckedChanged += new System.EventHandler(this.chk_cola_CheckedChanged);
@@ -356,7 +356,7 @@
             this.chk_sprite.Location = new System.Drawing.Point(64, 99);
             this.chk_sprite.Name = "chk_sprite";
             this.chk_sprite.Size = new System.Drawing.Size(83, 26);
-            this.chk_sprite.TabIndex = 8;
+            this.chk_sprite.TabIndex = 7;
             this.chk_sprite.Text = "Sprite";
             this.chk_sprite.UseVisualStyleBackColor = true;
             this.chk_sprite.CheckedChanged += new System.EventHandler(this.chk_sprite_CheckedChanged);
@@ -368,7 +368,7 @@
             this.chk_fanta.Location = new System.Drawing.Point(64, 131);
             this.chk_fanta.Name = "chk_fanta";
             this.chk_fanta.Size = new System.Drawing.Size(82, 26);
-            this.chk_fanta.TabIndex = 9;
+            this.chk_fanta.TabIndex = 8;
             this.chk_fanta.Text = "Fanta";
             this.chk_fanta.UseVisualStyleBackColor = true;
             this.chk_fanta.CheckedChanged += new System.EventHandler(this.checkBox8_CheckedChanged);
@@ -380,7 +380,7 @@
             this.txt_sprite.Multiline = true;
             this.txt_sprite.Name = "txt_sprite";
             this.txt_sprite.Size = new System.Drawing.Size(22, 21);
-            this.txt_sprite.TabIndex = 35;
+            this.txt_sprite.TabIndex = 26;
             this.txt_sprite.Text = "0";
             // 
             // chk_hotchoclate
@@ -390,7 +390,7 @@
             this.chk_hotchoclate.Location = new System.Drawing.Point(64, 163);
             this.chk_hotchoclate.Name = "chk_hotchoclate";
             this.chk_hotchoclate.Size = new System.Drawing.Size(140, 26);
-            this.chk_hotchoclate.TabIndex = 10;
+            this.chk_hotchoclate.TabIndex = 9;
             this.chk_hotchoclate.Text = "Hot Choclate";
             this.chk_hotchoclate.UseVisualStyleBackColor = true;
             this.chk_hotchoclate.CheckedChanged += new System.EventHandler(this.chk_hotchoclate_CheckedChanged);
@@ -402,7 +402,7 @@
             this.txt_cola.Multiline = true;
             this.txt_cola.Name = "txt_cola";
             this.txt_cola.Size = new System.Drawing.Size(22, 21);
-            this.txt_cola.TabIndex = 36;
+            this.txt_cola.TabIndex = 25;
             this.txt_cola.Text = "0";
             // 
             // chk_coffe
@@ -412,7 +412,7 @@
             this.chk_coffe.Location = new System.Drawing.Point(64, 195);
             this.chk_coffe.Name = "chk_coffe";
             this.chk_coffe.Size = new System.Drawing.Size(79, 26);
-            this.chk_coffe.TabIndex = 11;
+            this.chk_coffe.TabIndex = 10;
             this.chk_coffe.Text = "Coffe";
             this.chk_coffe.UseVisualStyleBackColor = true;
             this.chk_coffe.CheckedChanged += new System.EventHandler(this.chk_coffe_CheckedChanged);
@@ -464,7 +464,7 @@
             this.txt_fanta.Multiline = true;
             this.txt_fanta.Name = "txt_fanta";
             this.txt_fanta.Size = new System.Drawing.Size(22, 21);
-            this.txt_fanta.TabIndex = 31;
+            this.txt_fanta.TabIndex = 27;
             this.txt_fanta.Text = "0";
             // 
             // label11
@@ -482,7 +482,7 @@
             this.button1.Location = new System.Drawing.Point(62, 565);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(112, 34);
-            this.button1.TabIndex = 12;
+            this.button1.TabIndex = 17;
             this.button1.Text = "Ok";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -501,7 +501,7 @@
             this.txt_number.Location = new System.Drawing.Point(236, 455);
             this.txt_number.Name = "txt_number";
             this.txt_number.Size = new System.Drawing.Size(150, 31);
-            this.txt_number.TabIndex = 18;
+            this.txt_number.TabIndex = 13;
             this.txt_number.TextChanged += new System.EventHandler(this.txt_number_TextChanged);
             // 
             // label2
@@ -527,7 +527,7 @@
             this.txt_name.Location = new System.Drawing.Point(236, 370);
             this.txt_name.Name = "txt_name";
             this.txt_name.Size = new System.Drawing.Size(150, 31);
-            this.txt_name.TabIndex = 16;
+            this.txt_name.TabIndex = 11;
             this.txt_name.TextChanged += new System.EventHandler(this.txt_name_TextChanged);
             // 
             // txt_adress
@@ -535,7 +535,7 @@
             this.txt_adress.Location = new System.Drawing.Point(236, 413);
             this.txt_adress.Name = "txt_adress";
             this.txt_adress.Size = new System.Drawing.Size(150, 31);
-            this.txt_adress.TabIndex = 17;
+            this.txt_adress.TabIndex = 12;
             this.txt_adress.TextChanged += new System.EventHandler(this.txt_adress_TextChanged);
             // 
             // button2
@@ -543,7 +543,7 @@
             this.button2.Location = new System.Drawing.Point(236, 565);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(112, 34);
-            this.button2.TabIndex = 18;
+            this.button2.TabIndex = 19;
             this.button2.Text = "Exit";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -553,7 +553,7 @@
             this.btn_total.Location = new System.Drawing.Point(613, 565);
             this.btn_total.Name = "btn_total";
             this.btn_total.Size = new System.Drawing.Size(112, 34);
-            this.btn_total.TabIndex = 19;
+            this.btn_total.TabIndex = 16;
             this.btn_total.Text = "Total";
             this.btn_total.UseVisualStyleBackColor = true;
             this.btn_total.Click += new System.EventHandler(this.btn_total_Click);
@@ -563,7 +563,7 @@
             this.button4.Location = new System.Drawing.Point(427, 565);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(112, 34);
-            this.button4.TabIndex = 20;
+            this.button4.TabIndex = 18;
             this.button4.Text = "Reset";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
