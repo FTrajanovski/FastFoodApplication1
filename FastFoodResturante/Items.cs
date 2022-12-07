@@ -433,8 +433,14 @@ namespace FastFoodResturante
                 MessageBox.Show("Thank you for choosing our restaurant, " + txt_name.Text + ". We will deliver your order at " + txt_adress.Text + ". We will contact you at " + txt_number.Text);
 
             }
+            {
+                Form Avslut = new frm_avslut();
+                Avslut.Show();
+                this.Hide();
+            }
 
-          
+
+
         }
 
         
@@ -484,5 +490,6 @@ namespace FastFoodResturante
                
             
         }
+
     }
 }
