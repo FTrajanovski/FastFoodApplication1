@@ -263,6 +263,7 @@ namespace FastFoodResturante
 
         private void btn_total_Click(object sender, EventArgs e)
         {
+
             double[] itemcost = new double[100];
             itemcost[0] = Convert.ToDouble(txt_burger.Text) * price_burger;
             itemcost[2] = Convert.ToDouble(txt_hotdog.Text) * price_hotdog;
@@ -276,7 +277,14 @@ namespace FastFoodResturante
             itemcost[10] = Convert.ToDouble(txt_coffe.Text) * price_coffe;
 
             double total, payment, cost;
-            if (cmb_payment.Text == "Cash")
+
+            //Så inte programmet kraschar om användaren inte matar in pengar.
+            if (txt_payment.Text == "")
+            {
+                MessageBox.Show("Please insert money.");
+            }
+            //Om man väljer "cash"
+            else if (cmb_payment.Text == "Cash")
             {
                 
                 total = itemcost[0] + itemcost[2] + itemcost[3] + itemcost[4] + itemcost[5] + itemcost[6]
@@ -289,6 +297,7 @@ namespace FastFoodResturante
                 lbl_changeresult.Text = Convert.ToString(cost);
                
             }
+            
             else
             {
                 total = itemcost[0] + itemcost[2] + itemcost[3] + itemcost[4] + itemcost[5] + itemcost[6]
@@ -416,7 +425,7 @@ namespace FastFoodResturante
             //Kommer upp om man inte tryckt in någon produkt alls, eftrsom
             //else if (lbl_totalresult.Text == "Total result" || lbl_totalresult.Text == "0")
             //{
-            //MessageBox.Show("Choose a product!");
+            //MessageBox.Show("!");
 
             //}
             else
