@@ -66,13 +66,13 @@ namespace FastFoodResturante
 
         private void frm_item_Load(object sender, EventArgs e)
         {
+            cmb_payment.Items.Add(" ");
             cmb_payment.Items.Add("Cash");
             cmb_payment.Items.Add("Cash on delivery");
 
+
             
         }
-
-      
 
 
      
