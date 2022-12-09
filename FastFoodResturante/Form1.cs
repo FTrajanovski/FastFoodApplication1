@@ -39,5 +39,10 @@ namespace FastFoodResturante
                 Application.Exit();
             }
         }
+
+        private void frm_Front_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

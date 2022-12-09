@@ -74,6 +74,7 @@
             this.Controls.Add(this.label1);
             this.Name = "frm_Front";
             this.Text = "Front";
+            this.Load += new System.EventHandler(this.frm_Front_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

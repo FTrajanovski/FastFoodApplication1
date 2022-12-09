@@ -53,5 +53,10 @@ namespace FastFoodResturante
 
             }
         }
+
+        private void textBox1_TextChanged_2(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
