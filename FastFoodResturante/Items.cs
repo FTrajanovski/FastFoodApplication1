@@ -431,12 +431,13 @@ namespace FastFoodResturante
             else
             {
                 MessageBox.Show("Thank you for choosing our restaurant, " + txt_name.Text + ". We will deliver your order at " + txt_adress.Text + ". We will contact you at " + txt_number.Text);
-
-            }
-            {
+               //Nytt formulär öppnas(Avslut)
                 Form Avslut = new frm_avslut();
                 Avslut.Show();
                 this.Hide();
+            }
+            {
+              
             }
 
 
