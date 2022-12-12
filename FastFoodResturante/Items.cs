@@ -6,6 +6,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Runtime.CompilerServices;
+using System.Runtime.ConstrainedExecution;
 using System.Security.AccessControl;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
@@ -311,8 +312,9 @@ namespace FastFoodResturante
 
         private void button4_Click(object sender, EventArgs e)
         {
-            RestTextBox();
-            
+            //RestTextBox();
+        
+
         }
         private void RestTextBox()
         {
@@ -500,5 +502,51 @@ namespace FastFoodResturante
             
         }
 
+        private void label19_Click(object sender, EventArgs e)
+        {
+            txt_name.Clear();
+            txt_adress.Clear();
+            txt_number.Clear();
+            txt_burger.Clear();
+            txt_hotdog.Clear();
+            txt_pizza.Clear();
+            txt_sallad.Clear();
+            txt_sandwich.Clear();
+            txt_burger.Focus();
+            chk_burger.Checked = false;
+        }
+
+        private void label19_Click_1(object sender, EventArgs e)
+        {
+            txt_burger.Clear();
+            txt_hotdog.Clear();
+            txt_pizza.Clear();
+            txt_sallad.Clear();
+            txt_sandwich.Clear();
+            txt_cola.Clear();
+            txt_sprite.Clear();
+            txt_fanta.Clear();
+            txt_hotchoclate.Clear();
+            txt_coffe.Clear();
+            chk_burger.Checked = false;
+            chk_hotdog.Checked = false;
+            chk_pizza.Checked = false;
+            chk_sallad.Checked = false;
+            chk_sandwich.Checked = false;
+            chk_cola.Checked = false;
+            chk_sprite.Checked = false;
+            chk_fanta.Checked = false;
+            chk_hotchoclate.Checked = false;
+            chk_coffe.Checked = false;
+
+        }
+
+        private void label20_Click(object sender, EventArgs e)
+        {
+            txt_name.Clear();
+            txt_adress.Clear();
+            txt_number.Clear();
+            txt_name.Focus();
+        }
     }
 }

@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_item));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label19 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
@@ -81,6 +82,7 @@
             this.txt_payment = new System.Windows.Forms.TextBox();
             this.cmb_payment = new System.Windows.Forms.ComboBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label20 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -88,6 +90,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.label19);
             this.groupBox1.Controls.Add(this.label18);
             this.groupBox1.Controls.Add(this.label10);
             this.groupBox1.Controls.Add(this.label17);
@@ -112,6 +115,19 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Food";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.BackColor = System.Drawing.Color.Transparent;
+            this.label19.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label19.Location = new System.Drawing.Point(50, 236);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(136, 24);
+            this.label19.TabIndex = 28;
+            this.label19.Text = "Clear checkbox";
+            this.label19.Click += new System.EventHandler(this.label19_Click_1);
             // 
             // label18
             // 
@@ -645,12 +661,26 @@
             this.pictureBox1.TabIndex = 27;
             this.pictureBox1.TabStop = false;
             // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.BackColor = System.Drawing.Color.Transparent;
+            this.label20.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label20.Location = new System.Drawing.Point(61, 493);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(108, 24);
+            this.label20.TabIndex = 29;
+            this.label20.Text = "Clear Fields";
+            this.label20.Click += new System.EventHandler(this.label20_Click);
+            // 
             // frm_item
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightBlue;
             this.ClientSize = new System.Drawing.Size(800, 631);
+            this.Controls.Add(this.label20);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.cmb_payment);
             this.Controls.Add(this.txt_payment);
@@ -738,5 +768,7 @@
         private Label label5;
         private Label label11;
         private PictureBox pictureBox1;
+        private Label label19;
+        private Label label20;
     }
 }
