@@ -339,19 +339,20 @@ namespace FastFoodResturante
 
         private void button1_Click(object sender, EventArgs e)
         {
+            
             //Om man inte har fyllt i sitt namn.
             if (txt_name.Text == "") 
             {
-                MessageBox.Show("Please fill out the required fields!");
+                MessageBox.Show("Please fill out name!");
             }
             else if (txt_adress.Text == "")
             {
-                MessageBox.Show("Please fill out the required fields!");
+                MessageBox.Show("Please fill out address!");
 
             }
             else if (txt_number.Text == "")
             {
-                MessageBox.Show("Please fill out the required fields!");
+                MessageBox.Show("Please fill out number!");
 
             }
             else if (cmb_payment.Text == "")
@@ -362,6 +363,7 @@ namespace FastFoodResturante
             {
                 MessageBox.Show("Please insert money.");
             }
+            
        
             //Om inte man trycker in på en produkt, kommer det upp "enter quantity. (Burger checked måste också vara ifylld
             //annars kommer det även upp "enter quantity" på dom produkterna som inte är valda, eftersom alla börjar på"0".
