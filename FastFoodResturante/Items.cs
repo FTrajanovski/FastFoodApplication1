@@ -341,10 +341,16 @@ namespace FastFoodResturante
         {
             
             //Om man inte har fyllt i sitt namn.
-            if (txt_name.Text == "") 
+            if (txt_name.Text == "" && txt_adress.Text == "" && txt_number.Text == "") 
+            {
+                MessageBox.Show("Please fill out required fields!");
+            }
+            else if(txt_name.Text == "")
             {
                 MessageBox.Show("Please fill out name!");
             }
+
+            
             else if (txt_adress.Text == "")
             {
                 MessageBox.Show("Please fill out address!");
@@ -357,7 +363,7 @@ namespace FastFoodResturante
             }
             else if (cmb_payment.Text == "")
             {
-                MessageBox.Show("Please fill out the required fields!");
+                MessageBox.Show("Please choose payment method!");
             }
             else if (txt_payment.Text == "")
             {
