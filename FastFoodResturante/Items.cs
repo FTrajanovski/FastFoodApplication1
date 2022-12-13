@@ -312,8 +312,11 @@ namespace FastFoodResturante
 
         private void button4_Click(object sender, EventArgs e)
         {
-            //RestTextBox();
-        
+            //Reset ItemsForm
+            Form item = new frm_item();
+            item.Show();
+            this.Hide();
+
 
         }
         private void RestTextBox()
