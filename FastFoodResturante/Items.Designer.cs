@@ -122,11 +122,11 @@
             this.label19.BackColor = System.Drawing.Color.Transparent;
             this.label19.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label19.Location = new System.Drawing.Point(50, 236);
+            this.label19.Location = new System.Drawing.Point(50, 233);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(136, 24);
+            this.label19.Size = new System.Drawing.Size(55, 24);
             this.label19.TabIndex = 28;
-            this.label19.Text = "Clear checkbox";
+            this.label19.Text = "Clear";
             this.label19.Click += new System.EventHandler(this.label19_Click_1);
             // 
             // label18
@@ -318,7 +318,7 @@
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.txt_fanta);
             this.groupBox2.Controls.Add(this.label11);
-            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.groupBox2.Location = new System.Drawing.Point(391, 57);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(381, 299);
@@ -669,9 +669,9 @@
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label20.Location = new System.Drawing.Point(61, 493);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(108, 24);
+            this.label20.Size = new System.Drawing.Size(55, 24);
             this.label20.TabIndex = 29;
-            this.label20.Text = "Clear Fields";
+            this.label20.Text = "Clear";
             this.label20.Click += new System.EventHandler(this.label20_Click);
             // 
             // frm_item
